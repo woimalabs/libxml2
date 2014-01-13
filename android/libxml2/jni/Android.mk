@@ -1,20 +1,20 @@
-
 LOCAL_PATH:= $(call my-dir)
-
-LS_CPP=$(subst $(1)/,,$(wildcard $(1)/$(2)/*.c))
-SOURCE_LIST:= $(call LS_CPP,$(LOCAL_PATH), ../../../libxml2-2.7.8)
-
 include $(CLEAR_VARS)
+LOCAL_MODULE:= libxml2
 
+# includes
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../libxml2-2.7.8/include external/icu4c/common
+LOCAL_C_INCLUDES := $(LOCAL_EXPORT_C_INCLUDES)
+
+# sources
+SOURCE_PATH:=../../../libxml2-2.7.8
+FILES_ALL:= $(wildcard $(LOCAL_PATH)/$(SOURCE_PATH)/*.c)
+LOCAL_SRC_FILES:= $(FILES_ALL:$(LOCAL_PATH)/%=%)
+
+# build
 DISABLED_WARNING_FLAGS := \
 	-Wno-format \
 	-Wno-pointer-sign \
 	-Wno-sign-compare
 
-LOCAL_MODULE:= libxml2
-LOCAL_SRC_FILES:= $(SOURCE_LIST)
-LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../libxml2-2.7.8/include
-LOCAL_C_INCLUDES := $(LOCAL_EXPORT_C_INCLUDES)
-
 include $(BUILD_SHARED_LIBRARY)
-
