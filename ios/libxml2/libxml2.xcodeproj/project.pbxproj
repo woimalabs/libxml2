@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7217F71885AE6C00D0B811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7217F61885AE6C00D0B811 /* Foundation.framework */; };
+		FB7217FC1885AE6C00D0B811 /* libxml2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7217FB1885AE6C00D0B811 /* libxml2.h */; };
+		FB7217FE1885AE6C00D0B811 /* libxml2.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7217FD1885AE6C00D0B811 /* libxml2.m */; };
+		FB7218051885AE6C00D0B811 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7218041885AE6C00D0B811 /* XCTest.framework */; };
+		FB7218061885AE6C00D0B811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7217F61885AE6C00D0B811 /* Foundation.framework */; };
+		FB7218081885AE6C00D0B811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7218071885AE6C00D0B811 /* UIKit.framework */; };
+		FB72180B1885AE6C00D0B811 /* liblibxml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7217F31885AE6C00D0B811 /* liblibxml2.a */; };
+		FB7218111885AE6C00D0B811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB72180F1885AE6C00D0B811 /* InfoPlist.strings */; };
+		FB7218131885AE6C00D0B811 /* libxml2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7218121885AE6C00D0B811 /* libxml2Tests.m */; };
+		FB7218511885AF4000D0B811 /* c14n.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72181D1885AF4000D0B811 /* c14n.c */; };
+		FB7218521885AF4000D0B811 /* catalog.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72181E1885AF4000D0B811 /* catalog.c */; };
+		FB7218531885AF4000D0B811 /* chvalid.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72181F1885AF4000D0B811 /* chvalid.c */; };
+		FB7218541885AF4000D0B811 /* debugXML.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218201885AF4000D0B811 /* debugXML.c */; };
+		FB7218551885AF4000D0B811 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218211885AF4000D0B811 /* dict.c */; };
+		FB7218561885AF4000D0B811 /* DOCBparser.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218221885AF4000D0B811 /* DOCBparser.c */; };
+		FB7218571885AF4000D0B811 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218241885AF4000D0B811 /* encoding.c */; };
+		FB7218581885AF4000D0B811 /* entities.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218251885AF4000D0B811 /* entities.c */; };
+		FB7218591885AF4000D0B811 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218261885AF4000D0B811 /* error.c */; };
+		FB72185A1885AF4000D0B811 /* globals.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218271885AF4000D0B811 /* globals.c */; };
+		FB72185B1885AF4000D0B811 /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218281885AF4000D0B811 /* hash.c */; };
+		FB72185C1885AF4000D0B811 /* HTMLparser.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218291885AF4000D0B811 /* HTMLparser.c */; };
+		FB72185D1885AF4000D0B811 /* HTMLtree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72182A1885AF4000D0B811 /* HTMLtree.c */; };
+		FB72185E1885AF4000D0B811 /* legacy.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72182B1885AF4000D0B811 /* legacy.c */; };
+		FB72185F1885AF4000D0B811 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72182D1885AF4000D0B811 /* list.c */; };
+		FB7218601885AF4000D0B811 /* nanoftp.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72182E1885AF4000D0B811 /* nanoftp.c */; };
+		FB7218611885AF4000D0B811 /* nanohttp.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72182F1885AF4000D0B811 /* nanohttp.c */; };
+		FB7218621885AF4000D0B811 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218301885AF4000D0B811 /* parser.c */; };
+		FB7218631885AF4000D0B811 /* parserInternals.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218311885AF4000D0B811 /* parserInternals.c */; };
+		FB7218641885AF4000D0B811 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218321885AF4000D0B811 /* pattern.c */; };
+		FB7218651885AF4000D0B811 /* relaxng.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218331885AF4000D0B811 /* relaxng.c */; };
+		FB7218661885AF4000D0B811 /* SAX.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218341885AF4000D0B811 /* SAX.c */; };
+		FB7218671885AF4000D0B811 /* SAX2.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218351885AF4000D0B811 /* SAX2.c */; };
+		FB7218681885AF4000D0B811 /* schematron.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218361885AF4000D0B811 /* schematron.c */; };
+		FB7218691885AF4000D0B811 /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218371885AF4000D0B811 /* threads.c */; };
+		FB72186A1885AF4000D0B811 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218381885AF4000D0B811 /* tree.c */; };
+		FB72186B1885AF4000D0B811 /* trionan.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72183A1885AF4000D0B811 /* trionan.c */; };
+		FB72186C1885AF4000D0B811 /* triostr.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72183D1885AF4000D0B811 /* triostr.c */; };
+		FB72186D1885AF4000D0B811 /* uri.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72183F1885AF4000D0B811 /* uri.c */; };
+		FB72186E1885AF4000D0B811 /* valid.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218401885AF4000D0B811 /* valid.c */; };
+		FB72186F1885AF4000D0B811 /* xinclude.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218411885AF4000D0B811 /* xinclude.c */; };
+		FB7218701885AF4000D0B811 /* xlink.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218421885AF4000D0B811 /* xlink.c */; };
+		FB7218711885AF4000D0B811 /* xmlcatalog.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218431885AF4000D0B811 /* xmlcatalog.c */; };
+		FB7218721885AF4000D0B811 /* xmlIO.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218441885AF4000D0B811 /* xmlIO.c */; };
+		FB7218731885AF4000D0B811 /* xmlmemory.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218451885AF4000D0B811 /* xmlmemory.c */; };
+		FB7218741885AF4000D0B811 /* xmlmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218461885AF4000D0B811 /* xmlmodule.c */; };
+		FB7218751885AF4000D0B811 /* xmlreader.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218471885AF4000D0B811 /* xmlreader.c */; };
+		FB7218761885AF4000D0B811 /* xmlregexp.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218481885AF4000D0B811 /* xmlregexp.c */; };
+		FB7218771885AF4000D0B811 /* xmlsave.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218491885AF4000D0B811 /* xmlsave.c */; };
+		FB7218781885AF4000D0B811 /* xmlschemas.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184A1885AF4000D0B811 /* xmlschemas.c */; };
+		FB7218791885AF4000D0B811 /* xmlschemastypes.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184B1885AF4000D0B811 /* xmlschemastypes.c */; };
+		FB72187A1885AF4000D0B811 /* xmlstring.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184C1885AF4000D0B811 /* xmlstring.c */; };
+		FB72187B1885AF4000D0B811 /* xmlunicode.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184D1885AF4000D0B811 /* xmlunicode.c */; };
+		FB72187C1885AF4000D0B811 /* xmlwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184E1885AF4000D0B811 /* xmlwriter.c */; };
+		FB72187D1885AF4000D0B811 /* xpath.c in Sources */ = {isa = PBXBuildFile; fileRef = FB72184F1885AF4000D0B811 /* xpath.c */; };
+		FB72187E1885AF4000D0B811 /* xpointer.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7218501885AF4000D0B811 /* xpointer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7218091885AE6C00D0B811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7217EB1885AE6C00D0B811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7217F21885AE6C00D0B811;
+			remoteInfo = libxml2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB7217F11885AE6C00D0B811 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FB7217FC1885AE6C00D0B811 /* libxml2.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB7217F31885AE6C00D0B811 /* liblibxml2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7217F61885AE6C00D0B811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB7217FA1885AE6C00D0B811 /* libxml2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libxml2-Prefix.pch"; sourceTree = "<group>"; };
+		FB7217FB1885AE6C00D0B811 /* libxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libxml2.h; sourceTree = "<group>"; };
+		FB7217FD1885AE6C00D0B811 /* libxml2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libxml2.m; sourceTree = "<group>"; };
+		FB7218031885AE6C00D0B811 /* libxml2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libxml2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7218041885AE6C00D0B811 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB7218071885AE6C00D0B811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FB72180E1885AE6C00D0B811 /* libxml2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libxml2Tests-Info.plist"; sourceTree = "<group>"; };
+		FB7218101885AE6C00D0B811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB7218121885AE6C00D0B811 /* libxml2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libxml2Tests.m; sourceTree = "<group>"; };
+		FB72181D1885AF4000D0B811 /* c14n.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = c14n.c; path = "../../libxml2-2.7.8/c14n.c"; sourceTree = "<group>"; };
+		FB72181E1885AF4000D0B811 /* catalog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = catalog.c; path = "../../libxml2-2.7.8/catalog.c"; sourceTree = "<group>"; };
+		FB72181F1885AF4000D0B811 /* chvalid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = chvalid.c; path = "../../libxml2-2.7.8/chvalid.c"; sourceTree = "<group>"; };
+		FB7218201885AF4000D0B811 /* debugXML.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debugXML.c; path = "../../libxml2-2.7.8/debugXML.c"; sourceTree = "<group>"; };
+		FB7218211885AF4000D0B811 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dict.c; path = "../../libxml2-2.7.8/dict.c"; sourceTree = "<group>"; };
+		FB7218221885AF4000D0B811 /* DOCBparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DOCBparser.c; path = "../../libxml2-2.7.8/DOCBparser.c"; sourceTree = "<group>"; };
+		FB7218231885AF4000D0B811 /* elfgcchack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elfgcchack.h; path = "../../libxml2-2.7.8/elfgcchack.h"; sourceTree = "<group>"; };
+		FB7218241885AF4000D0B811 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = encoding.c; path = "../../libxml2-2.7.8/encoding.c"; sourceTree = "<group>"; };
+		FB7218251885AF4000D0B811 /* entities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entities.c; path = "../../libxml2-2.7.8/entities.c"; sourceTree = "<group>"; };
+		FB7218261885AF4000D0B811 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = "../../libxml2-2.7.8/error.c"; sourceTree = "<group>"; };
+		FB7218271885AF4000D0B811 /* globals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = globals.c; path = "../../libxml2-2.7.8/globals.c"; sourceTree = "<group>"; };
+		FB7218281885AF4000D0B811 /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hash.c; path = "../../libxml2-2.7.8/hash.c"; sourceTree = "<group>"; };
+		FB7218291885AF4000D0B811 /* HTMLparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HTMLparser.c; path = "../../libxml2-2.7.8/HTMLparser.c"; sourceTree = "<group>"; };
+		FB72182A1885AF4000D0B811 /* HTMLtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HTMLtree.c; path = "../../libxml2-2.7.8/HTMLtree.c"; sourceTree = "<group>"; };
+		FB72182B1885AF4000D0B811 /* legacy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = legacy.c; path = "../../libxml2-2.7.8/legacy.c"; sourceTree = "<group>"; };
+		FB72182C1885AF4000D0B811 /* libxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libxml.h; path = "../../libxml2-2.7.8/libxml.h"; sourceTree = "<group>"; };
+		FB72182D1885AF4000D0B811 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = list.c; path = "../../libxml2-2.7.8/list.c"; sourceTree = "<group>"; };
+		FB72182E1885AF4000D0B811 /* nanoftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nanoftp.c; path = "../../libxml2-2.7.8/nanoftp.c"; sourceTree = "<group>"; };
+		FB72182F1885AF4000D0B811 /* nanohttp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nanohttp.c; path = "../../libxml2-2.7.8/nanohttp.c"; sourceTree = "<group>"; };
+		FB7218301885AF4000D0B811 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parser.c; path = "../../libxml2-2.7.8/parser.c"; sourceTree = "<group>"; };
+		FB7218311885AF4000D0B811 /* parserInternals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parserInternals.c; path = "../../libxml2-2.7.8/parserInternals.c"; sourceTree = "<group>"; };
+		FB7218321885AF4000D0B811 /* pattern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pattern.c; path = "../../libxml2-2.7.8/pattern.c"; sourceTree = "<group>"; };
+		FB7218331885AF4000D0B811 /* relaxng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = relaxng.c; path = "../../libxml2-2.7.8/relaxng.c"; sourceTree = "<group>"; };
+		FB7218341885AF4000D0B811 /* SAX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SAX.c; path = "../../libxml2-2.7.8/SAX.c"; sourceTree = "<group>"; };
+		FB7218351885AF4000D0B811 /* SAX2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SAX2.c; path = "../../libxml2-2.7.8/SAX2.c"; sourceTree = "<group>"; };
+		FB7218361885AF4000D0B811 /* schematron.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = schematron.c; path = "../../libxml2-2.7.8/schematron.c"; sourceTree = "<group>"; };
+		FB7218371885AF4000D0B811 /* threads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = threads.c; path = "../../libxml2-2.7.8/threads.c"; sourceTree = "<group>"; };
+		FB7218381885AF4000D0B811 /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tree.c; path = "../../libxml2-2.7.8/tree.c"; sourceTree = "<group>"; };
+		FB7218391885AF4000D0B811 /* triodef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triodef.h; path = "../../libxml2-2.7.8/triodef.h"; sourceTree = "<group>"; };
+		FB72183A1885AF4000D0B811 /* trionan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trionan.c; path = "../../libxml2-2.7.8/trionan.c"; sourceTree = "<group>"; };
+		FB72183B1885AF4000D0B811 /* trionan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trionan.h; path = "../../libxml2-2.7.8/trionan.h"; sourceTree = "<group>"; };
+		FB72183C1885AF4000D0B811 /* triop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triop.h; path = "../../libxml2-2.7.8/triop.h"; sourceTree = "<group>"; };
+		FB72183D1885AF4000D0B811 /* triostr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = triostr.c; path = "../../libxml2-2.7.8/triostr.c"; sourceTree = "<group>"; };
+		FB72183E1885AF4000D0B811 /* triostr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triostr.h; path = "../../libxml2-2.7.8/triostr.h"; sourceTree = "<group>"; };
+		FB72183F1885AF4000D0B811 /* uri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uri.c; path = "../../libxml2-2.7.8/uri.c"; sourceTree = "<group>"; };
+		FB7218401885AF4000D0B811 /* valid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = valid.c; path = "../../libxml2-2.7.8/valid.c"; sourceTree = "<group>"; };
+		FB7218411885AF4000D0B811 /* xinclude.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xinclude.c; path = "../../libxml2-2.7.8/xinclude.c"; sourceTree = "<group>"; };
+		FB7218421885AF4000D0B811 /* xlink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xlink.c; path = "../../libxml2-2.7.8/xlink.c"; sourceTree = "<group>"; };
+		FB7218431885AF4000D0B811 /* xmlcatalog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlcatalog.c; path = "../../libxml2-2.7.8/xmlcatalog.c"; sourceTree = "<group>"; };
+		FB7218441885AF4000D0B811 /* xmlIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlIO.c; path = "../../libxml2-2.7.8/xmlIO.c"; sourceTree = "<group>"; };
+		FB7218451885AF4000D0B811 /* xmlmemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlmemory.c; path = "../../libxml2-2.7.8/xmlmemory.c"; sourceTree = "<group>"; };
+		FB7218461885AF4000D0B811 /* xmlmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlmodule.c; path = "../../libxml2-2.7.8/xmlmodule.c"; sourceTree = "<group>"; };
+		FB7218471885AF4000D0B811 /* xmlreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlreader.c; path = "../../libxml2-2.7.8/xmlreader.c"; sourceTree = "<group>"; };
+		FB7218481885AF4000D0B811 /* xmlregexp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlregexp.c; path = "../../libxml2-2.7.8/xmlregexp.c"; sourceTree = "<group>"; };
+		FB7218491885AF4000D0B811 /* xmlsave.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlsave.c; path = "../../libxml2-2.7.8/xmlsave.c"; sourceTree = "<group>"; };
+		FB72184A1885AF4000D0B811 /* xmlschemas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlschemas.c; path = "../../libxml2-2.7.8/xmlschemas.c"; sourceTree = "<group>"; };
+		FB72184B1885AF4000D0B811 /* xmlschemastypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlschemastypes.c; path = "../../libxml2-2.7.8/xmlschemastypes.c"; sourceTree = "<group>"; };
+		FB72184C1885AF4000D0B811 /* xmlstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlstring.c; path = "../../libxml2-2.7.8/xmlstring.c"; sourceTree = "<group>"; };
+		FB72184D1885AF4000D0B811 /* xmlunicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlunicode.c; path = "../../libxml2-2.7.8/xmlunicode.c"; sourceTree = "<group>"; };
+		FB72184E1885AF4000D0B811 /* xmlwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmlwriter.c; path = "../../libxml2-2.7.8/xmlwriter.c"; sourceTree = "<group>"; };
+		FB72184F1885AF4000D0B811 /* xpath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xpath.c; path = "../../libxml2-2.7.8/xpath.c"; sourceTree = "<group>"; };
+		FB7218501885AF4000D0B811 /* xpointer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xpointer.c; path = "../../libxml2-2.7.8/xpointer.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7217F01885AE6C00D0B811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7217F71885AE6C00D0B811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7218001885AE6C00D0B811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72180B1885AE6C00D0B811 /* liblibxml2.a in Frameworks */,
+				FB7218051885AE6C00D0B811 /* XCTest.framework in Frameworks */,
+				FB7218081885AE6C00D0B811 /* UIKit.framework in Frameworks */,
+				FB7218061885AE6C00D0B811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7217EA1885AE6C00D0B811 = {
+			isa = PBXGroup;
+			children = (
+				FB72181C1885AEED00D0B811 /* src */,
+				FB7217F81885AE6C00D0B811 /* libxml2 */,
+				FB72180C1885AE6C00D0B811 /* libxml2Tests */,
+				FB7217F51885AE6C00D0B811 /* Frameworks */,
+				FB7217F41885AE6C00D0B811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7217F41885AE6C00D0B811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7217F31885AE6C00D0B811 /* liblibxml2.a */,
+				FB7218031885AE6C00D0B811 /* libxml2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7217F51885AE6C00D0B811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB7217F61885AE6C00D0B811 /* Foundation.framework */,
+				FB7218041885AE6C00D0B811 /* XCTest.framework */,
+				FB7218071885AE6C00D0B811 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB7217F81885AE6C00D0B811 /* libxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB7217FB1885AE6C00D0B811 /* libxml2.h */,
+				FB7217FD1885AE6C00D0B811 /* libxml2.m */,
+				FB7217F91885AE6C00D0B811 /* Supporting Files */,
+			);
+			path = libxml2;
+			sourceTree = "<group>";
+		};
+		FB7217F91885AE6C00D0B811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7217FA1885AE6C00D0B811 /* libxml2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB72180C1885AE6C00D0B811 /* libxml2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7218121885AE6C00D0B811 /* libxml2Tests.m */,
+				FB72180D1885AE6C00D0B811 /* Supporting Files */,
+			);
+			path = libxml2Tests;
+			sourceTree = "<group>";
+		};
+		FB72180D1885AE6C00D0B811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB72180E1885AE6C00D0B811 /* libxml2Tests-Info.plist */,
+				FB72180F1885AE6C00D0B811 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB72181C1885AEED00D0B811 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FB72181D1885AF4000D0B811 /* c14n.c */,
+				FB72181E1885AF4000D0B811 /* catalog.c */,
+				FB72181F1885AF4000D0B811 /* chvalid.c */,
+				FB7218201885AF4000D0B811 /* debugXML.c */,
+				FB7218211885AF4000D0B811 /* dict.c */,
+				FB7218221885AF4000D0B811 /* DOCBparser.c */,
+				FB7218231885AF4000D0B811 /* elfgcchack.h */,
+				FB7218241885AF4000D0B811 /* encoding.c */,
+				FB7218251885AF4000D0B811 /* entities.c */,
+				FB7218261885AF4000D0B811 /* error.c */,
+				FB7218271885AF4000D0B811 /* globals.c */,
+				FB7218281885AF4000D0B811 /* hash.c */,
+				FB7218291885AF4000D0B811 /* HTMLparser.c */,
+				FB72182A1885AF4000D0B811 /* HTMLtree.c */,
+				FB72182B1885AF4000D0B811 /* legacy.c */,
+				FB72182C1885AF4000D0B811 /* libxml.h */,
+				FB72182D1885AF4000D0B811 /* list.c */,
+				FB72182E1885AF4000D0B811 /* nanoftp.c */,
+				FB72182F1885AF4000D0B811 /* nanohttp.c */,
+				FB7218301885AF4000D0B811 /* parser.c */,
+				FB7218311885AF4000D0B811 /* parserInternals.c */,
+				FB7218321885AF4000D0B811 /* pattern.c */,
+				FB7218331885AF4000D0B811 /* relaxng.c */,
+				FB7218341885AF4000D0B811 /* SAX.c */,
+				FB7218351885AF4000D0B811 /* SAX2.c */,
+				FB7218361885AF4000D0B811 /* schematron.c */,
+				FB7218371885AF4000D0B811 /* threads.c */,
+				FB7218381885AF4000D0B811 /* tree.c */,
+				FB7218391885AF4000D0B811 /* triodef.h */,
+				FB72183A1885AF4000D0B811 /* trionan.c */,
+				FB72183B1885AF4000D0B811 /* trionan.h */,
+				FB72183C1885AF4000D0B811 /* triop.h */,
+				FB72183D1885AF4000D0B811 /* triostr.c */,
+				FB72183E1885AF4000D0B811 /* triostr.h */,
+				FB72183F1885AF4000D0B811 /* uri.c */,
+				FB7218401885AF4000D0B811 /* valid.c */,
+				FB7218411885AF4000D0B811 /* xinclude.c */,
+				FB7218421885AF4000D0B811 /* xlink.c */,
+				FB7218431885AF4000D0B811 /* xmlcatalog.c */,
+				FB7218441885AF4000D0B811 /* xmlIO.c */,
+				FB7218451885AF4000D0B811 /* xmlmemory.c */,
+				FB7218461885AF4000D0B811 /* xmlmodule.c */,
+				FB7218471885AF4000D0B811 /* xmlreader.c */,
+				FB7218481885AF4000D0B811 /* xmlregexp.c */,
+				FB7218491885AF4000D0B811 /* xmlsave.c */,
+				FB72184A1885AF4000D0B811 /* xmlschemas.c */,
+				FB72184B1885AF4000D0B811 /* xmlschemastypes.c */,
+				FB72184C1885AF4000D0B811 /* xmlstring.c */,
+				FB72184D1885AF4000D0B811 /* xmlunicode.c */,
+				FB72184E1885AF4000D0B811 /* xmlwriter.c */,
+				FB72184F1885AF4000D0B811 /* xpath.c */,
+				FB7218501885AF4000D0B811 /* xpointer.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7217F21885AE6C00D0B811 /* libxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7218161885AE6C00D0B811 /* Build configuration list for PBXNativeTarget "libxml2" */;
+			buildPhases = (
+				FB7217EF1885AE6C00D0B811 /* Sources */,
+				FB7217F01885AE6C00D0B811 /* Frameworks */,
+				FB7217F11885AE6C00D0B811 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libxml2;
+			productName = libxml2;
+			productReference = FB7217F31885AE6C00D0B811 /* liblibxml2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB7218021885AE6C00D0B811 /* libxml2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7218191885AE6C00D0B811 /* Build configuration list for PBXNativeTarget "libxml2Tests" */;
+			buildPhases = (
+				FB7217FF1885AE6C00D0B811 /* Sources */,
+				FB7218001885AE6C00D0B811 /* Frameworks */,
+				FB7218011885AE6C00D0B811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB72180A1885AE6C00D0B811 /* PBXTargetDependency */,
+			);
+			name = libxml2Tests;
+			productName = libxml2Tests;
+			productReference = FB7218031885AE6C00D0B811 /* libxml2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7217EB1885AE6C00D0B811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Woima Solutions Oy";
+			};
+			buildConfigurationList = FB7217EE1885AE6C00D0B811 /* Build configuration list for PBXProject "libxml2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB7217EA1885AE6C00D0B811;
+			productRefGroup = FB7217F41885AE6C00D0B811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7217F21885AE6C00D0B811 /* libxml2 */,
+				FB7218021885AE6C00D0B811 /* libxml2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7218011885AE6C00D0B811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7218111885AE6C00D0B811 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7217EF1885AE6C00D0B811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB72186D1885AF4000D0B811 /* uri.c in Sources */,
+				FB7217FE1885AE6C00D0B811 /* libxml2.m in Sources */,
+				FB7218531885AF4000D0B811 /* chvalid.c in Sources */,
+				FB72187D1885AF4000D0B811 /* xpath.c in Sources */,
+				FB7218601885AF4000D0B811 /* nanoftp.c in Sources */,
+				FB72187E1885AF4000D0B811 /* xpointer.c in Sources */,
+				FB7218571885AF4000D0B811 /* encoding.c in Sources */,
+				FB7218711885AF4000D0B811 /* xmlcatalog.c in Sources */,
+				FB7218731885AF4000D0B811 /* xmlmemory.c in Sources */,
+				FB72186C1885AF4000D0B811 /* triostr.c in Sources */,
+				FB7218761885AF4000D0B811 /* xmlregexp.c in Sources */,
+				FB72185F1885AF4000D0B811 /* list.c in Sources */,
+				FB72186B1885AF4000D0B811 /* trionan.c in Sources */,
+				FB7218611885AF4000D0B811 /* nanohttp.c in Sources */,
+				FB7218701885AF4000D0B811 /* xlink.c in Sources */,
+				FB7218621885AF4000D0B811 /* parser.c in Sources */,
+				FB7218561885AF4000D0B811 /* DOCBparser.c in Sources */,
+				FB72185C1885AF4000D0B811 /* HTMLparser.c in Sources */,
+				FB7218591885AF4000D0B811 /* error.c in Sources */,
+				FB7218521885AF4000D0B811 /* catalog.c in Sources */,
+				FB7218691885AF4000D0B811 /* threads.c in Sources */,
+				FB7218641885AF4000D0B811 /* pattern.c in Sources */,
+				FB72185E1885AF4000D0B811 /* legacy.c in Sources */,
+				FB7218781885AF4000D0B811 /* xmlschemas.c in Sources */,
+				FB7218551885AF4000D0B811 /* dict.c in Sources */,
+				FB7218681885AF4000D0B811 /* schematron.c in Sources */,
+				FB7218741885AF4000D0B811 /* xmlmodule.c in Sources */,
+				FB72187C1885AF4000D0B811 /* xmlwriter.c in Sources */,
+				FB72185B1885AF4000D0B811 /* hash.c in Sources */,
+				FB72185A1885AF4000D0B811 /* globals.c in Sources */,
+				FB7218721885AF4000D0B811 /* xmlIO.c in Sources */,
+				FB72187A1885AF4000D0B811 /* xmlstring.c in Sources */,
+				FB72187B1885AF4000D0B811 /* xmlunicode.c in Sources */,
+				FB7218751885AF4000D0B811 /* xmlreader.c in Sources */,
+				FB7218631885AF4000D0B811 /* parserInternals.c in Sources */,
+				FB7218651885AF4000D0B811 /* relaxng.c in Sources */,
+				FB72186F1885AF4000D0B811 /* xinclude.c in Sources */,
+				FB7218581885AF4000D0B811 /* entities.c in Sources */,
+				FB7218511885AF4000D0B811 /* c14n.c in Sources */,
+				FB7218791885AF4000D0B811 /* xmlschemastypes.c in Sources */,
+				FB72185D1885AF4000D0B811 /* HTMLtree.c in Sources */,
+				FB7218771885AF4000D0B811 /* xmlsave.c in Sources */,
+				FB7218671885AF4000D0B811 /* SAX2.c in Sources */,
+				FB72186A1885AF4000D0B811 /* tree.c in Sources */,
+				FB7218661885AF4000D0B811 /* SAX.c in Sources */,
+				FB7218541885AF4000D0B811 /* debugXML.c in Sources */,
+				FB72186E1885AF4000D0B811 /* valid.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7217FF1885AE6C00D0B811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7218131885AE6C00D0B811 /* libxml2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB72180A1885AE6C00D0B811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7217F21885AE6C00D0B811 /* libxml2 */;
+			targetProxy = FB7218091885AE6C00D0B811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB72180F1885AE6C00D0B811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7218101885AE6C00D0B811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7218141885AE6C00D0B811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../../libxml2-2.7.8/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB7218151885AE6C00D0B811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../../libxml2-2.7.8/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7218171885AE6C00D0B811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libxml2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB7218181885AE6C00D0B811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libxml2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB72181A1885AE6C00D0B811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "libxml2Tests/libxml2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB72181B1885AE6C00D0B811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
+				INFOPLIST_FILE = "libxml2Tests/libxml2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7217EE1885AE6C00D0B811 /* Build configuration list for PBXProject "libxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7218141885AE6C00D0B811 /* Debug */,
+				FB7218151885AE6C00D0B811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7218161885AE6C00D0B811 /* Build configuration list for PBXNativeTarget "libxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7218171885AE6C00D0B811 /* Debug */,
+				FB7218181885AE6C00D0B811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB7218191885AE6C00D0B811 /* Build configuration list for PBXNativeTarget "libxml2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB72181A1885AE6C00D0B811 /* Debug */,
+				FB72181B1885AE6C00D0B811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7217EB1885AE6C00D0B811 /* Project object */;
+}
