@@ -545,6 +545,7 @@
 		FB7218171885AE6C00D0B811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/libxml2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
@@ -557,6 +558,7 @@
 		FB7218181885AE6C00D0B811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/libxml2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libxml2/libxml2-Prefix.pch";
@@ -623,6 +625,7 @@
 				FB7218181885AE6C00D0B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7218191885AE6C00D0B811 /* Build configuration list for PBXNativeTarget "libxml2Tests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +634,7 @@
 				FB72181B1885AE6C00D0B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
